@@ -20,7 +20,7 @@ while True:
         case 2:
             viewElements()
         case 3:
-            searchElement()
+            searchElements()
         case 4:
             #editElement()
             pass
