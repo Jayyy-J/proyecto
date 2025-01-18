@@ -1,10 +1,22 @@
 from design.menssage import *
 from function.function import *
+from tabulate import tabulate
 
+books = abrirArchivo(RUTA_BOOK)
+movies = abrirArchivo(RUTA_MOVIES)
+music = abrirArchivo(RUTA_MUSIC)
 
-def viewBooks():
-    
-    pass
+def viewBooks():    
+    print(tabulate(books, headers="keys", tablefmt="grid"))
+    pressEnter()
+
+def viewMovies():    
+    print(tabulate(movies, headers="keys", tablefmt="grid"))
+    pressEnter()
+
+def viewMusic():    
+    print(tabulate(music, headers="keys", tablefmt="grid"))
+    pressEnter()
 
 def viewElements():
     while True:
@@ -14,11 +26,9 @@ def viewElements():
             case 1:
                 viewBooks()
             case 2:
-                #viewMovies()
-                pass
+                viewMovies()
             case 3:
-                #viewMusic()
-                pass
+                viewMusic()
             case 4:
                 pressEnter()
                 break
