@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriel Garcia Marquez",
+        "genero": "Realismo",
+        "valoracion": "5"
+    },
+    {
+        "titulo": "Hgfds",
+        "autor": "Hgfd",
+        "genero": "Gfds",
+        "valoracion": "2"
+    },
+    {
+        "titulo": "Padre rico padre pobre",
+        "autor": "Robert kyoseki",
+        "genero": "Finanzas",
+        "valoracion": "5.0"
+    },
+    {
+        "titulo": "Mobydick",
+        "autor": "Leo",
+        "genero": "Aventuras",
+        "valoracion": "5.0"
+    }
+]
