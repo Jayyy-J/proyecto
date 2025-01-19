@@ -24,8 +24,7 @@ while True:
         case 4:
             editElement()
         case 5:
-            #deleteElement()
-            pass
+            deleteElement()
         case 6:
             viewElementCategory()
         case 7:
