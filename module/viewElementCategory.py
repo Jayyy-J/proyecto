@@ -15,11 +15,12 @@ def viewBooksCategory():
                 for book in books:
                     if categoria == book["categoria"]:
                         encontrado = True
-                        print(tabulate([categoria], headers="keys", tablefmt="grid"))
+                        print(tabulate([book], headers="keys", tablefmt="grid"))
                         pressEnter()
                         break
                 if not encontrado:
                     print('Todavia no hay elementos')
+                    pressEnter()
 
             case 2:
                 categoria = "comic"
@@ -27,55 +28,60 @@ def viewBooksCategory():
                 for book in books:
                     if categoria == book["categoria"]:
                         encontrado = True
-                        print(tabulate([categoria], headers="keys", tablefmt="grid"))
+                        print(tabulate([book], headers="keys", tablefmt="grid"))
                         pressEnter()
                         break
                 if not encontrado:
                     print('Todavia no hay elementos')
+                    pressEnter()
             case 3:
                 categoria = "humor-grafico"
                 encontrado = False
                 for book in books:
                     if categoria == book["categoria"]:
                         encontrado = True
-                        print(tabulate([categoria], headers="keys", tablefmt="grid"))
+                        print(tabulate([book], headers="keys", tablefmt="grid"))
                         pressEnter()
                         break
                 if not encontrado:
                     print('Todavia no hay elementos')
+                    pressEnter()
             case 4:
                 categoria = "cuento-ilustrado"
                 encontrado = False
                 for book in books:
                     if categoria == book["categoria"]:
                         encontrado = True
-                        print(tabulate([categoria], headers="keys", tablefmt="grid"))
+                        print(tabulate([book], headers="keys", tablefmt="grid"))
                         pressEnter()
                         break
                 if not encontrado:
                     print('Todavia no hay elementos')
+                    pressEnter()
             case 5:
                 categoria = "parodia-literaria"
                 encontrado = False
                 for book in books:
                     if categoria == book["categoria"]:
                         encontrado = True
-                        print(tabulate([categoria], headers="keys", tablefmt="grid"))
+                        print(tabulate([book], headers="keys", tablefmt="grid"))
                         pressEnter()
                         break
                 if not encontrado:
                     print('Todavia no hay elementos')
+                    pressEnter()
             case 6:
                 categoria = "ficcion-satira"
                 encontrado = False
                 for book in books:
                     if categoria == book["categoria"]:
                         encontrado = True
-                        print(tabulate([categoria], headers="keys", tablefmt="grid"))
+                        print(tabulate([book], headers="keys", tablefmt="grid"))
                         pressEnter()
                         break
                 if not encontrado:
                     print('Todavia no hay elementos')
+                    pressEnter()
             case 7:
                 pressEnter()
                 break
