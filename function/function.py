@@ -10,10 +10,17 @@ def getInt(mensaje):
         except Exception:
             print('Opcion Invalida, ingrese un valor valido.')
 
+def getIntId(mensaje):
+    while True:
+        try:
+            numero = int(input(mensaje))
+            return numero
+        except Exception:
+            print('Opcion Invalida, ingrese un valor valido.')
 
 def pressEnter ():
-    print ("Hecho")
-    input('Press Enter...........................')
+    print("Operación completada con éxito.")
+    input('Presiona Enter para continuar...')
 
 
 def IdDefault():

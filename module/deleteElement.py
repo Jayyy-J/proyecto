@@ -52,44 +52,60 @@ def deleteForTitle(libros, musica, peliculas, coleccion):
 
 def deleteForId(libros, musica, peliculas, coleccion):
     encontrado = False
-    idUser  = getInt('Escribe el Identificador de tu elemento (Libro/Pelicula/Musica) :')
+
+
+    idUser  = getIntId('Escribe el Identificador de tu elemento (Libro/Pelicula/Musica) :')
     id = str(idUser)
+
+
+
     for book in libros:
         if book.get("id") == id:
             encontrado = True
-            for bookCol in coleccion["id"]:
-                if bookCol.get("id") == id:
-                    encontrado = True
+            for bookCol in coleccion["libros"]:
+                if str(bookCol.get("id")) == id:
                     coleccion["libros"].remove(bookCol)
                     libros.remove(book)
                     guardarArchivo(RUTA_BOOK, libros)
                     guardarArchivo(RUTA_COLECCION, coleccion)
                     pressEnter()
-                    break
-    for music in musica:
-        if music.get("id") == id:
-            encontrado = True
-            for musicCol in coleccion["musica"]:
-                if musicCol.get("id") == id:
                     encontrado = True
-                    coleccion["musica"].remove(musicCol)
-                    musica.remove(music)
-                    guardarArchivo(RUTA_MUSIC, musica)
-                    guardarArchivo(RUTA_COLECCION, coleccion)
-                    pressEnter()
                     break
-    for movie in peliculas:
-        if movie.get("id") == id:
-            encontrado = True
-            for movieCol in coleccion["peliculas"]:
-                if movieCol.get("id") == id:
-                    encontrado = True
-                    coleccion["peliculas"].remove(movieCol)
-                    peliculas.remove(movie)
-                    guardarArchivo(RUTA_MOVIES, peliculas)
-                    guardarArchivo(RUTA_COLECCION, coleccion)
-                    pressEnter()
+            if not encontrado:
+                break
+
+    if not encontrado:
+        for movie in peliculas:
+            if str(movie.get("id")) == id:
+                encontrado = True
+                for movieCol in coleccion["peliculas"]:
+                    if movieCol.get("id") == id:
+                        coleccion["peliculas"].remove(movieCol)
+                        peliculas.remove(movie)
+                        guardarArchivo(RUTA_MOVIES, peliculas)
+                        guardarArchivo(RUTA_COLECCION, coleccion)
+                        pressEnter()
+                        encontrado = True
+                        break
+                if not encontrado:
                     break
+
+    if not encontrado:
+        for music in musica:
+            if str(music.get("id")) == id:
+                encontrado = True
+                for musicCol in coleccion["musica"]:
+                    if musicCol.get("id") == id:
+                        coleccion["musica"].remove(musicCol)
+                        musica.remove(music)
+                        guardarArchivo(RUTA_MUSIC, musica)
+                        guardarArchivo(RUTA_COLECCION, coleccion)
+                        pressEnter()
+                        encontrado = True
+                        break
+                if not encontrado:
+                    break
+
     if not encontrado:
         print('No se encontro el Id del elemento.')
         pressEnter()
@@ -104,7 +120,7 @@ def deleteElement():
             case 1:
                 deleteForTitle(books, musics, movies, colections)
             case 2:
-                deleteForId()
+                deleteForId(books, musics, movies, colections)
             case 3:
                 pressEnter()
                 break

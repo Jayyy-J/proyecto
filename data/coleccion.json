@@ -59,22 +59,6 @@
             "valoracion": "3.0",
             "categoria": "exprimental",
             "id": "2345"
-        },
-        {
-            "titulo": "Hgvfc",
-            "director": "Fd",
-            "genero": "C",
-            "valoracion": "32.0",
-            "categoria": "musical-animado",
-            "id": "3456"
-        },
-        {
-            "titulo": "Hgf",
-            "director": "Gf",
-            "genero": "Vds",
-            "valoracion": "5.0",
-            "categoria": "musical-animado",
-            "id": "4737"
         }
     ]
 }
