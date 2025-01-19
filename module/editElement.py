@@ -156,7 +156,7 @@ def editValor():
     for book in books:
         if titulo == book["titulo"]:
             encontrado = True
-            newValorn = getInt('Escriba la nueva puntuacion nuevo :').capitalize()
+            newValorn = getInt('Escriba la nueva puntuacion nuevo :')
             newValor = str(newValorn)
             book["valoracion"] = newValor
             for colection in colections["libros"]:
@@ -169,7 +169,7 @@ def editValor():
     for music in musics:
         if titulo == music["titulo"]:
             encontrado = True
-            newValorn = getInt('Escriba la nueva puntuacion nuevo :').capitalize()
+            newValorn = getInt('Escriba la nueva puntuacion nuevo :')
             newValor = str(newValorn)
             music["valoracion"] = newValor
             for colection in colections["musica"]:
@@ -183,7 +183,7 @@ def editValor():
     for movie in movies:
         if titulo == movie["titulo"]:
             encontrado = True
-            newValorn = getInt('Escriba la nueva puntuacion nuevo :').capitalize()
+            newValorn = getInt('Escriba la nueva puntuacion nuevo :')
             newValor = str(newValorn)
             movie["valoracion"] = newValor
             for colection in colections["peliculas"]:
