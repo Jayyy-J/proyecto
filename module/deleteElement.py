@@ -21,6 +21,30 @@ def deleteForTitle(libros, musica, peliculas, coleccion):
                     guardarArchivo(RUTA_COLECCION, coleccion)
                     pressEnter()
                     break
+    for music in musica:
+        if music.get("titulo") == titulo:
+            encontrado = True
+            for musicCol in coleccion["musica"]:
+                if musicCol.get("titulo") == titulo:
+                    encontrado = True
+                    coleccion["musica"].remove(musicCol)
+                    musica.remove(music)
+                    guardarArchivo(RUTA_MUSIC, musica)
+                    guardarArchivo(RUTA_COLECCION, coleccion)
+                    pressEnter()
+                    break
+    for movie in peliculas:
+        if movie.get("titulo") == titulo:
+            encontrado = True
+            for movieCol in coleccion["peliculas"]:
+                if movieCol.get("titulo") == titulo:
+                    encontrado = True
+                    coleccion["peliculas"].remove(movieCol)
+                    peliculas.remove(movie)
+                    guardarArchivo(RUTA_MOVIES, peliculas)
+                    guardarArchivo(RUTA_COLECCION, coleccion)
+                    pressEnter()
+                    break
     if not encontrado:
         print('No se encontro el elemento, registrelo.')
         pressEnter()
