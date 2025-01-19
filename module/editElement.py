@@ -197,6 +197,8 @@ def editValor():
         print('No se encontro nada, registralo.')
         pressEnter()
 
+
+
 def editElement():
     while True:
         print(editElementDesign)
@@ -211,9 +213,6 @@ def editElement():
             case 4:
                 editValor()
             case 5:
-                #editCategory()
-                pass
-            case 6:
                 pressEnter()
                 break
             case _:
