@@ -4,13 +4,23 @@
         "artista": "Kris r",
         "genero": "Trap",
         "valoracion": "3.0",
-        "categoria": "rap"
+        "categoria": "rap",
+        "id": "7856"
     },
     {
         "titulo": "Siete dias",
         "artista": "Romeo santos",
         "genero": "Bachata",
         "valoracion": "5.0",
-        "categoria": "pop"
+        "categoria": "pop",
+        "id": "7209"
+    },
+    {
+        "titulo": "Bd",
+        "artista": "Vs",
+        "genero": "Vsed",
+        "valoracion": "2.0",
+        "categoria": "funk",
+        "id": "7810"
     }
 ]

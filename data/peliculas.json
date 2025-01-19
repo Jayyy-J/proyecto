@@ -4,13 +4,31 @@
         "director": "Brad Anderson",
         "genero": "Suspenso",
         "valoracion": "5",
-        "categoria": "exprimental"
+        "categoria": "exprimental",
+        "id": "1234"
     },
     {
         "titulo": "San andres",
-        "director": "Matt",
+        "director": "Matt murdock",
         "genero": "Ciencia ficcion",
         "valoracion": "3.0",
-        "categoria": "exprimental"
+        "categoria": "exprimental",
+        "id": "2345"
+    },
+    {
+        "titulo": "Hgvfc",
+        "director": "Fd",
+        "genero": "C",
+        "valoracion": "32.0",
+        "categoria": "musical-animado",
+        "id": "3456"
+    },
+    {
+        "titulo": "Hgf",
+        "director": "Gf",
+        "genero": "Vds",
+        "valoracion": "5.0",
+        "categoria": null,
+        "id": "4737"
     }
 ]

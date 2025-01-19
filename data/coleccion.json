@@ -5,7 +5,16 @@
             "autor": "Gabriel Garcia Marquez",
             "genero": "Realismo",
             "valoracion": "5",
-            "categoria": "novela-grafica"
+            "categoria": "novela-grafica",
+            "id": "6666"
+        },
+        {
+            "titulo": "Bgff",
+            "autor": "Vdf",
+            "genero": "Vds",
+            "valoracion": "2.0",
+            "categoria": "humor-grafico",
+            "id": "7861"
         }
     ],
     "musica": [
@@ -14,14 +23,24 @@
             "artista": "Kris r",
             "genero": "Trap",
             "valoracion": "3.0",
-            "categoria": "rap"
+            "categoria": "rap",
+            "id": "7856"
         },
         {
             "titulo": "Siete dias",
             "artista": "Romeo santos",
             "genero": "Bachata",
             "valoracion": "5.0",
-            "categoria": "pop"
+            "categoria": "pop",
+            "id": "7209"
+        },
+        {
+            "titulo": "Bd",
+            "artista": "Vs",
+            "genero": "Vsed",
+            "valoracion": "2.0",
+            "categoria": "funk",
+            "id": "7810"
         }
     ],
     "peliculas": [
@@ -30,14 +49,32 @@
             "director": "Brad Anderson",
             "genero": "Suspenso",
             "valoracion": "5",
-            "categoria": "exprimental"
+            "categoria": "exprimental",
+            "id": "1234"
         },
         {
             "titulo": "San andres",
             "director": "Matt murdock",
             "genero": "Ciencia ficcion",
             "valoracion": "3.0",
-            "categoria": "exprimental"
+            "categoria": "exprimental",
+            "id": "2345"
+        },
+        {
+            "titulo": "Hgvfc",
+            "director": "Fd",
+            "genero": "C",
+            "valoracion": "32.0",
+            "categoria": "musical-animado",
+            "id": "3456"
+        },
+        {
+            "titulo": "Hgf",
+            "director": "Gf",
+            "genero": "Vds",
+            "valoracion": "5.0",
+            "categoria": "musical-animado",
+            "id": "4737"
         }
     ]
 }

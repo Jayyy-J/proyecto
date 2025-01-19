@@ -108,9 +108,8 @@ viewcategoryesBooksDesign = """
 4. Cuentos Ilustrados
 5. Parodia Literaria
 6. Ficcion Satira
-7. Regresar al Menú Principal
 ===========================================
-Selecciona una opción (1-7):
+Selecciona una opción (1-6):
 
 """
 viewcategoryesMoviesDesign = """
@@ -122,9 +121,8 @@ viewcategoryesMoviesDesign = """
 2. Cine de SuperHeroes
 3. Cine Exprimental
 4. Musicales animadas
-5. Regresar al Menú Principal
 ===========================================
-Selecciona una opción (1-5):
+Selecciona una opción (1-4):
 
 """
 
@@ -140,9 +138,8 @@ viewcategoryesMusicDesign = """
 5. Hip Hop-Rap-Trap
 6. Satira Social y Politica
 7. FUnk y Disco
-8. Regresar al Menú Principal
 ===========================================
-Selecciona una opción (1-8):
+Selecciona una opción (1-7):
 
 """
 

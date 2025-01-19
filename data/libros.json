@@ -4,6 +4,15 @@
         "autor": "Gabriel Garcia Marquez",
         "genero": "Realismo",
         "valoracion": "5",
-        "categoria": "animacion"
+        "categoria": "novela-grafica",
+        "id": "6666"
+    },
+    {
+        "titulo": "Bgff",
+        "autor": "Vdf",
+        "genero": "Vds",
+        "valoracion": "2.0",
+        "categoria": "humor-grafico",
+        "id": "7861"
     }
 ]

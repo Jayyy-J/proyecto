@@ -49,6 +49,11 @@ def deleteForTitle(libros, musica, peliculas, coleccion):
         print('No se encontro el elemento, registrelo.')
         pressEnter()
 
+
+def deleteForId():
+    pass
+
+
 def deleteElement():
     while True:
         print(deleteElementDesign)
@@ -57,8 +62,7 @@ def deleteElement():
             case 1:
                 deleteForTitle(books, musics, movies, colections)
             case 2:
-                #deleteForId()
-                pass
+                deleteForId()
             case 3:
                 pressEnter()
                 break

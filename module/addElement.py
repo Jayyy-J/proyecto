@@ -24,9 +24,6 @@ def categoryBook():
             case 6:
                 categoria = "ficcion-satira"
                 return categoria
-            case 7:
-                pressEnter()
-                break
             case _:
                 print('Ingresa una opcion valida!!!')
 
@@ -37,13 +34,15 @@ def addBook(book, colection):
     valor = getInt('Ingrese la puntuacion del libro (1-5) :')
     valoracion = str(valor)
     categoria = categoryBook()
+    id = IdDefault()
     
     librosDic = {
         "titulo": titulo,
         "autor": autor,
         "genero": genero,
         "valoracion": valoracion,
-        "categoria": categoria
+        "categoria": categoria,
+        "id": id
     }
     pressEnter()
     book.append(librosDic)
@@ -67,9 +66,6 @@ def categoryMovies():
             case 4:
                 categoria = "musical-animado"
                 return categoria
-            case 5:
-                pressEnter()
-                break
             case _:
                 print('Ingresa una opcion valida!!!')
 
@@ -80,13 +76,15 @@ def addMovie(movie, colection):
     valor = getInt('Ingrese la puntuacion de la pelicula (1-5) :')
     valoracion = str(valor)
     categoria = categoryMovies()
+    id = IdDefault()
     
     moviesDic = {
         "titulo": titulo,
         "director": autor,
         "genero": genero,
         "valoracion": valoracion,
-        "categoria": categoria
+        "categoria": categoria,
+        "id": id
     }
     pressEnter()
     movie.append(moviesDic)
@@ -119,9 +117,6 @@ def categoryMusic():
             case 7:
                 categoria = "funk"
                 return categoria
-            case 8:
-                pressEnter()
-                break
             case _:
                 print('Ingresa una opcion valida!!!')
 
@@ -132,13 +127,15 @@ def addMusic(musics, colection):
     valor = getInt('Ingrese la puntuacion del disco (1-5) :')
     valoracion = str(valor)
     categoria = categoryMusic()
+    id = IdDefault()
     
     musicDic = {
         "titulo": titulo,
         "artista": autor,
         "genero": genero,
         "valoracion": valoracion,
-        "categoria": categoria
+        "categoria": categoria,
+        "id": id
     }
     pressEnter()
     musics.append(musicDic)
