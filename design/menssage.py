@@ -65,9 +65,10 @@ editElementDesign = """
 2. Editar Autor/Director/Artista
 3. Editar Género
 4. Editar Valoración
-5. Regresar al Menú Principal
+5. Editar Categoria
+6. Regresar al Menú Principal
 ===========================================
-Selecciona una opción (1-5):
+Selecciona una opción (1-6):
 """
 
 deleteElementDesign = """

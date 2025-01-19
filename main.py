@@ -22,8 +22,7 @@ while True:
         case 3:
             searchElements()
         case 4:
-            #editElement()
-            pass
+            editElement()
         case 5:
             #deleteElement()
             pass
