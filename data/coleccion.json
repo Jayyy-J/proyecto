@@ -18,7 +18,7 @@
     "musica": [
         {
             "titulo": "Blanquita",
-            "artista": "Kris R",
+            "artista": "Kris r",
             "genero": "Trap",
             "valoracion": "5",
             "categoria": "rap"
@@ -41,7 +41,7 @@
         },
         {
             "titulo": "San andres",
-            "director": "Matt",
+            "director": "Matt murdock",
             "genero": "Ciencia ficcion",
             "valoracion": "3.0",
             "categoria": "exprimental"
