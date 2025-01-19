@@ -28,8 +28,7 @@ while True:
             #deleteElement()
             pass
         case 6:
-            #viewElementCategory()
-            pass
+            viewElementCategory()
         case 7:
             saveLoadElement(libros, movies, music, colection)
         case 8:

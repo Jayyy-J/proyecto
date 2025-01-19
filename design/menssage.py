@@ -97,6 +97,56 @@ Selecciona una opción (1-4):
 
 """
 
+viewcategoryesBooksDesign = """
+===========================================
+      Elige una categoria para Libros
+===========================================
+¿Qué categoría deseas?
+1. Novela Grafica
+2. Comic
+3. Humor Grafico
+4. Cuentos Ilustrados
+5. Parodia Literaria
+6. Ficcion Satira
+7. Regresar al Menú Principal
+===========================================
+Selecciona una opción (1-7):
+
+"""
+viewcategoryesMovies = """
+===========================================
+     Elige una categoria para Peliculas
+===========================================
+¿Qué categoría deseas?
+1. Animacion
+2. Cine de SuperHeroes
+3. Cine Exprimental
+4. Musicales animadas
+5. Regresar al Menú Principal
+===========================================
+Selecciona una opción (1-5):
+
+"""
+
+viewcategoryesMusic = """
+===========================================
+     Elige una categoria para Musica
+===========================================
+¿Qué categoría deseas?
+1. Musica de Videojuegos
+2. MUsica Exprimental y Avant-Garde
+3. Musica Infantil
+4. Musica Pop y Electro
+5. Hip Hop-Rap-Trap
+6. Satira Social y Politica
+7. FUnk y Disco
+8. Regresar al Menú Principal
+===========================================
+Selecciona una opción (1-8):
+
+"""
+
+
 saveLoadColectionDesign = """
 ===========================================
         Guardar y Cargar Colección
