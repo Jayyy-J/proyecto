@@ -151,7 +151,101 @@ def viewMoviesCategory():
                 print('Ingresa una opcion valida!!!')
 
 def viewMusicCategory():
-    pass
+    musics = abrirArchivo(RUTA_MUSIC)
+    while True:
+        print(viewcategoryesMusicDesign)
+        opc = getInt(':) ')
+        match opc:
+            case 1:
+                encontrado = False
+                categoria = "videojuegos"
+                for music in musics:
+                    if categoria == music["categoria"]:
+                        encontrado = True
+                        print(tabulate([music], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+
+            case 2:
+                encontrado = False
+                categoria = "exprimental"
+                for music in musics:
+                    if categoria == music["categoria"]:
+                        encontrado = True
+                        print(tabulate([music], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 3:
+                encontrado = False
+                categoria = "infantil"
+                for music in musics:
+                    if categoria == music["categoria"]:
+                        encontrado = True
+                        print(tabulate([music], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 4:
+                encontrado = False
+                categoria = "pop"
+                for music in musics:
+                    if categoria == music["categoria"]:
+                        encontrado = True
+                        print(tabulate([music], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 5:
+                encontrado = False
+                categoria = "rap"
+                for music in musics:
+                    if categoria == music["categoria"]:
+                        encontrado = True
+                        print(tabulate([music], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 6:
+                encontrado = False
+                categoria = "satira"
+                for music in musics:
+                    if categoria == music["categoria"]:
+                        encontrado = True
+                        print(tabulate([music], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 7:
+                encontrado = False
+                categoria = "funk"
+                for music in musics:
+                    if categoria == music["categoria"]:
+                        encontrado = True
+                        print(tabulate([music], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 8:
+                pressEnter()
+                break
+            case _:
+                print('Ingresa una opcion valida!!!')
 
 def viewElementCategory():
     while True:
