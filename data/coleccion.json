@@ -4,25 +4,8 @@
             "titulo": "Cien años de soledad",
             "autor": "Gabriel Garcia Marquez",
             "genero": "Realismo",
-            "valoracion": "5"
-        },
-        {
-            "titulo": "Hgfds",
-            "autor": "Hgfd",
-            "genero": "Gfds",
-            "valoracion": "2"
-        },
-        {
-            "titulo": "Padre rico padre pobre",
-            "autor": "Robert kyoseki",
-            "genero": "Finanzas",
-            "valoracion": "5.0"
-        },
-        {
-            "titulo": "Mobydick",
-            "autor": "Leo",
-            "genero": "Aventuras",
-            "valoracion": "5.0"
+            "valoracion": "5",
+            "categoria": "animacion"
         }
     ],
     "musica": [
@@ -30,19 +13,8 @@
             "titulo": "Blanquita",
             "artista": "Kris R",
             "genero": "Trap",
-            "valoracion": "5"
-        },
-        {
-            "titulo": "Polos opuestos",
-            "artista": "Kris r",
-            "genero": "Trap",
-            "valoracion": "5"
-        },
-        {
-            "titulo": "La noche mas linda del mundo",
-            "artista": "Rene higuita",
-            "genero": "Salsa",
-            "valoracion": "5.0"
+            "valoracion": "5",
+            "categoria": "rap"
         }
     ],
     "peliculas": [
@@ -50,7 +22,8 @@
             "titulo": "Fractura",
             "director": "Brad Anderson",
             "genero": "Suspenso",
-            "valoracion": "5"
+            "valoracion": "5",
+            "categoria": "exprimental"
         }
     ]
 }
