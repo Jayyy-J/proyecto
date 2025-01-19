@@ -90,7 +90,65 @@ def viewBooksCategory():
 
 
 def viewMoviesCategory():
-    pass
+    movies = abrirArchivo(RUTA_MOVIES)
+    while True:
+        print(viewcategoryesMoviesDesign)
+        opc = getInt(':) ')
+        match opc:
+            case 1:
+                encontrado = False
+                categoria = "animacion"
+                for movie in movies:
+                    if categoria == movie["categoria"]:
+                        encontrado = True
+                        print(tabulate([movie], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+
+            case 2:
+                encontrado = False
+                categoria = "super-heroes"
+                for movie in movies:
+                    if categoria == movie["categoria"]:
+                        encontrado = True
+                        print(tabulate([movie], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 3:
+                encontrado = False
+                categoria = "exprimental"
+                for movie in movies:
+                    if categoria == movie["categoria"]:
+                        encontrado = True
+                        print(tabulate([movie], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 4:
+                encontrado = False
+                categoria = "musical-animado"
+                for movie in movies:
+                    if categoria == movie["categoria"]:
+                        encontrado = True
+                        print(tabulate([movie], headers="keys", tablefmt="grid"))
+                        pressEnter()
+                        break
+                if not encontrado:
+                    print('Todavia no hay elementos')
+                    pressEnter()
+            case 5:
+                pressEnter()
+                break
+            case _:
+                print('Ingresa una opcion valida!!!')
 
 def viewMusicCategory():
     pass
