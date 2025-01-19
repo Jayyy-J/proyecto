@@ -52,7 +52,7 @@ def addBook(book, colection):
 
 def categoryMovies():
     while True:
-        print(viewcategoryesBooksDesign)
+        print(viewcategoryesMoviesDesign)
         opc = getInt(':) ')
         match opc:
             case 1:
@@ -95,7 +95,7 @@ def addMovie(movie, colection):
 
 def categoryMusic():
     while True:
-        print(viewcategoryesBooksDesign)
+        print(viewcategoryesMusicDesign)
         opc = getInt(':) ')
         match opc:
             case 1:

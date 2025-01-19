@@ -5,5 +5,12 @@
         "genero": "Suspenso",
         "valoracion": "5",
         "categoria": "exprimental"
+    },
+    {
+        "titulo": "San andres",
+        "director": "Matt",
+        "genero": "Ciencia ficcion",
+        "valoracion": "3.0",
+        "categoria": "exprimental"
     }
 ]

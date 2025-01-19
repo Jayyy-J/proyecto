@@ -5,5 +5,12 @@
         "genero": "Trap",
         "valoracion": "5",
         "categoria": "rap"
+    },
+    {
+        "titulo": "Siete dias",
+        "artista": "Romeo santos",
+        "genero": "Bachata",
+        "valoracion": "5.0",
+        "categoria": "pop"
     }
 ]

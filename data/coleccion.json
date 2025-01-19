@@ -6,6 +6,13 @@
             "genero": "Realismo",
             "valoracion": "5",
             "categoria": "animacion"
+        },
+        {
+            "titulo": "Veinte mil lenguas de viaje submarino",
+            "autor": "Julio verne",
+            "genero": "Aventura",
+            "valoracion": "5.0",
+            "categoria": "novela-grafica"
         }
     ],
     "musica": [
@@ -15,6 +22,13 @@
             "genero": "Trap",
             "valoracion": "5",
             "categoria": "rap"
+        },
+        {
+            "titulo": "Siete dias",
+            "artista": "Romeo santos",
+            "genero": "Bachata",
+            "valoracion": "5.0",
+            "categoria": "pop"
         }
     ],
     "peliculas": [
@@ -23,6 +37,13 @@
             "director": "Brad Anderson",
             "genero": "Suspenso",
             "valoracion": "5",
+            "categoria": "exprimental"
+        },
+        {
+            "titulo": "San andres",
+            "director": "Matt",
+            "genero": "Ciencia ficcion",
+            "valoracion": "3.0",
             "categoria": "exprimental"
         }
     ]

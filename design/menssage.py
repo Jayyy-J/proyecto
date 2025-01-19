@@ -113,7 +113,7 @@ viewcategoryesBooksDesign = """
 Selecciona una opción (1-7):
 
 """
-viewcategoryesMovies = """
+viewcategoryesMoviesDesign = """
 ===========================================
      Elige una categoria para Peliculas
 ===========================================
@@ -128,7 +128,7 @@ Selecciona una opción (1-5):
 
 """
 
-viewcategoryesMusic = """
+viewcategoryesMusicDesign = """
 ===========================================
      Elige una categoria para Musica
 ===========================================
