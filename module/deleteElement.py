@@ -1,14 +1,37 @@
 from design.menssage import *
 from function.function import *
 
+books = abrirArchivo(RUTA_BOOK)
+musics = abrirArchivo(RUTA_MUSIC)
+movies = abrirArchivo(RUTA_MOVIES)
+colections = abrirArchivo(RUTA_COLECCION)
+
+def deleteForTitle(libros, musica, peliculas, coleccion):
+    encontrado = False
+    titulo  = input('Escribe el titulo del elemento a eliminar :').capitalize()
+    for book in libros:
+        if book.get("titulo") == titulo:
+            encontrado = True
+            for bookCol in coleccion["libros"]:
+                if bookCol.get("titulo") == titulo:
+                    encontrado = True
+                    coleccion["libros"].remove(bookCol)
+                    libros.remove(book)
+                    guardarArchivo(RUTA_BOOK, libros)
+                    guardarArchivo(RUTA_COLECCION, coleccion)
+                    pressEnter()
+                    break
+    if not encontrado:
+        print('No se encontro el elemento, registrelo.')
+        pressEnter()
+
 def deleteElement():
     while True:
         print(deleteElementDesign)
         opc = getInt(':) ')
         match opc:
             case 1:
-                #deleteForTitle()
-                pass
+                deleteForTitle(books, musics, movies, colections)
             case 2:
                 #deleteForId()
                 pass
